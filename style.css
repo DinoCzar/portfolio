@@ -99,7 +99,7 @@ body {
 }
 
 .project {
-	grid-template-rows: 3fr 1fr;
+	grid-template-rows: 5fr 1fr;
 	padding: 0px;
 }
 
@@ -118,7 +118,7 @@ body {
 
 .top {
 	grid-row-start: 1;
-	grid-template-columns: 6fr 1fr 1fr;
+	grid-template-columns: 5fr 1fr 1fr;
 	padding: 0;
 }
 
@@ -127,10 +127,14 @@ body {
 	font-weight: bold;
 	font-size: 14pt;
 	margin: 0;
+	align-items: center;
 }
 
 .github {
 	grid-column-start: 2;
+	margin: 0;
+	justify-items: center;
+	align-items: center;
 }
 
 .link {
@@ -154,6 +158,7 @@ body {
 	grid-row-start: 1;
 	font-weight: bold;
 	font-size: 16pt;
+	padding-left: 13px;
 }
 
 #contact-info {
@@ -175,6 +180,8 @@ body {
 
 #contact-links {
 	grid-row-start: 4;
+	grid-template-columns: 0fr 0fr;
+	gap: 4px;
 }
 
 #footer-photo {
@@ -191,5 +198,10 @@ body {
 }
 
 #family-photo {
-	max-width: 100%;	
+	max-width: 100%;
+}
+
+.github-logo {
+	width: 20%;
+	justify-self: center;
 }
