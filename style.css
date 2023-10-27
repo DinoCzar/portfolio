@@ -37,14 +37,15 @@ body {
 #phone,
 #email,
 #contact-links,
-#footer-photo {
+#footer-photo,
+.project-image {
 	border: solid;
 	border-width: 1px;
 	align-content: stretch;
 	justify-content: stretch;
 	display: grid;
 	margin: 5px;
-    padding: 5px;
+	padding: 5px;
 }
 
 #header {
@@ -83,16 +84,18 @@ body {
 
 #work {
 	grid-row-start: 2;
-	grid-template-rows: repeat(1, 1fr);
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(1fr, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 }
 
 .project {
-	grid-template-rows: 0fr 0fr;
+	grid-template-rows: 3fr 1fr;
 }
 
 .photo {
 	grid-row-start: 1;
+	justify-content: center;
+	align-content: center;
 }
 
 .info {
@@ -157,4 +160,8 @@ body {
 
 #footer-photo {
 	grid-column-start: 2;
+}
+
+.project-image {
+	max-width: 90%;
 }
