@@ -10,7 +10,7 @@ body {
 
 #container {
 	display: grid;
-	width: 100%;
+	width: 90%;
 }
 
 #container,
@@ -257,6 +257,7 @@ margin-right: 0px;
 
 #family-photo {
 	max-width: 100%;
+	min-width: 200px;
 }
 
 .github-logo {
@@ -282,7 +283,6 @@ margin-right: 0px;
 #github-icon {
 	width: 30px;
 }
-
 
 #footer-photo {
 	grid-column-start: 2;
