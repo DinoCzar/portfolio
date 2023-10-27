@@ -39,7 +39,16 @@ body {
 #email,
 #contact-links,
 #footer-photo,
-.project-image {
+.project-image,
+#git-info,
+#email-info,
+#phone-info,
+#github-footer,
+#email-footer,
+#phone-footer,
+#github-icon,
+#email-icon,
+#phone-icon {
 	border: solid;
 	border-width: 1px;
 	align-content: stretch;
@@ -183,13 +192,13 @@ body {
 
 #contact-links {
 	grid-row-start: 4;
-	grid-template-columns: 0fr 0fr;
-	gap: 4px;
 }
 
-#footer-photo {
-	grid-column-start: 2;
-	justify-items: center;
+#contact-links,
+#email,
+#phone {
+	grid-template-columns: 0fr 1fr;
+	gap: 4px;
 }
 
 .project-image {
@@ -207,4 +216,29 @@ body {
 .github-logo {
 	width: 20%;
 	justify-self: center;
+}
+
+#github-footer,
+#email-footer,
+#phone-footer {
+	grid-column-start: 1;
+	margin: 0;
+}
+
+#git-info,
+#email-info,
+#phone-info {
+	grid-column-start: 2;
+	align-items: center;
+}
+
+#github-icon,
+#email-icon,
+#phone-icon {
+width: 30px;
+}
+
+#footer-photo {
+	grid-column-start: 2;
+	justify-items: center;
 }
