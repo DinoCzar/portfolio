@@ -78,11 +78,12 @@ body {
 
 #title {
 	grid-row-start: 1;
+	justify-content: center;
 }
 
 #work {
 	grid-row-start: 2;
-	grid-template-rows: repeat(6, 1fr);
+	grid-template-rows: repeat(1, 1fr);
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
