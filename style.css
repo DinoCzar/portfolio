@@ -82,6 +82,8 @@ body {
 
 #work {
 	grid-row-start: 2;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .project {
