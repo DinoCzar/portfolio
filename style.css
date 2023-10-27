@@ -8,9 +8,27 @@ body {
 	background-color: black;
 }
 
+@media (max-width: 400px) {
+	#container {
+		max-width: 380px;
+	}
+}
+
+@media (max-width: 500px) {
+	#container {
+		max-width: 480px;
+	}
+}
+
+@media (max-width: 600px) {
+	#container {
+		max-width: 580px;
+	}
+}
+
 #container {
 	display: grid;
-	width: 90%;
+	width: 100%;
 }
 
 #container,
@@ -86,11 +104,11 @@ body {
 	border-radius: 10px;
 }
 
-#content, 
-#work, 
+#content,
+#work,
 .project {
-margin-left: 0px;
-margin-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #work {
@@ -279,7 +297,7 @@ margin-right: 0px;
 }
 
 #phone-icon,
-#email-icon, 
+#email-icon,
 #github-icon {
 	width: 30px;
 }
