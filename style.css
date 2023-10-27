@@ -57,19 +57,25 @@ body {
 	padding: 5px;
 }
 
-#header, 
-#footer {
-	background-color: #f6eabe;
+#header {
+	background-color: #e5d08f;
+}
+
+#title {
+	color: #e1dfdf;
 }
 
 #content {
 	background-color: black;
-	color: white;
 }
 
 .project {
-	background-color: white;
+	background-color: #e1dfdf;
 	color: black;
+}
+
+#footer {
+	background-color: #e3d4b6;
 }
 
 #header,
@@ -119,6 +125,7 @@ margin-right: 0px;
 #header-description {
 	grid-row-start: 2;
 	max-width: 300px;
+	text-align: center;
 }
 
 #header-links {
