@@ -73,7 +73,7 @@ body {
 	grid-column-start: 2;
 	grid-template-rows: 0fr 0fr 0fr;
 	justify-items: center;
-	align-items: center;
+	align-content: center;
 }
 
 #header-title {
@@ -84,6 +84,7 @@ body {
 
 #header-description {
 	grid-row-start: 2;
+	max-width: 300px;
 }
 
 #header-links {
