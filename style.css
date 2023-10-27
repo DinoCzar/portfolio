@@ -5,6 +5,7 @@
 body {
 	display: grid;
 	justify-content: stretch;
+	background-color: black;
 }
 
 #container {
@@ -56,13 +57,39 @@ body {
 	padding: 5px;
 }
 
+#header, 
+#footer {
+	background-color: #f6eabe;
+}
+
+#content {
+	background-color: black;
+	color: white;
+}
+
+.project {
+	background-color: white;
+	color: black;
+}
+
 #header,
-#content,
 #footer,
 .project {
 	border: solid;
 	border-width: 1px;
 	border-radius: 10px;
+}
+
+#content, 
+#work, 
+.project {
+margin-left: 0px;
+margin-right: 0px;
+}
+
+#work {
+	padding: 0px;
+	gap: 20px;
 }
 
 #header {
@@ -86,7 +113,7 @@ body {
 #header-title {
 	grid-row-start: 1;
 	font-weight: bold;
-	font-size: 16pt;
+	font-size: 20pt;
 }
 
 #header-description {
@@ -101,13 +128,16 @@ body {
 
 #content {
 	grid-template-rows: 0fr 0fr;
+	background-color: black;
+	color: white;
 }
 
 #title {
 	grid-row-start: 1;
 	justify-content: center;
 	font-weight: bold;
-	font-size: 16pt;
+	font-size: 18pt;
+	padding: 20px;
 }
 
 #work {
@@ -223,7 +253,7 @@ body {
 }
 
 .github-logo {
-	width: 50px;
+	width: 60px;
 }
 
 #github-footer,
