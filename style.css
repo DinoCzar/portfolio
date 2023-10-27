@@ -8,9 +8,9 @@ body {
 	background-color: black;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	#container {
-		max-width: 90vw;
+		max-width: 90%;
 	}
 }
 
