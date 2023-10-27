@@ -4,13 +4,11 @@
 
 body {
 	display: grid;
-	justify-content: stretch;
 	background-color: black;
 }
 
 #container {
 	display: grid;
-	width: 100%;
 }
 
 #container,
