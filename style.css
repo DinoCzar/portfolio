@@ -17,6 +17,7 @@ body {
 #content,
 #footer,
 #header-photo,
+#about,
 #header-title,
 #header-description,
 #header-links,
@@ -49,17 +50,20 @@ body {
 }
 
 #header {
-	grid-template-columns: 0.75fr 1fr;
+	grid-template-columns: 1fr .75fr;
 }
 
 #header-photo {
 	grid-column-start: 1;
-	justify-items: center;
+	justify-content: center;
+	max-width: 400px;
 }
 
 #about {
 	grid-column-start: 2;
-	grid-template-rows: 1fr 2fr 1fr;
+	grid-template-rows: 0fr 0fr 0fr;
+	justify-items: center;
+	align-items: center;
 }
 
 #header-title {
