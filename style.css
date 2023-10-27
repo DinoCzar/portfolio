@@ -4,13 +4,12 @@
 
 body {
     display: grid;
-    justify-content: center;
-    background-color: lightblue;
+    justify-content: stretch;
 }
 
 #container {
     display: grid;
-    background-color: red;
+    width: 200px;
 }
 
 #container,
@@ -19,7 +18,7 @@ body {
 #footer {
     border: solid;
     border-width: 1px;
-    width: 100vw;
+    width: 100%;
 }
 
 #header {
