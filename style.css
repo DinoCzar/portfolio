@@ -49,13 +49,20 @@ body {
 #github-icon,
 #email-icon,
 #phone-icon {
-	border: solid;
-	border-width: 1px;
 	align-content: stretch;
 	justify-content: stretch;
 	display: grid;
 	margin: 5px;
 	padding: 5px;
+}
+
+#header,
+#content,
+#footer,
+.project {
+	border: solid;
+	border-width: 1px;
+	border-radius: 10px;
 }
 
 #header {
