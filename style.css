@@ -232,13 +232,11 @@ body {
 	align-items: center;
 }
 
-#github-icon,
-#email-icon,
-#phone-icon {
-width: 30px;
-}
-
 #footer-photo {
 	grid-column-start: 2;
 	justify-items: center;
+}
+
+.icons {
+	width: 50px;
 }
