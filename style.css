@@ -5,6 +5,7 @@
 body {
 	display: grid;
 	background-color: black;
+	width: 100vw;
 }
 
 #container {
